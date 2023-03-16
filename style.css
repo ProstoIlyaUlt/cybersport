@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #121212;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+.menu-button {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    line-height: 80px
+}
+
+.menu-logo {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+
+}
+
+.navigation {
+    float: right;
+}
+
+.nav-menu {
+    height: 80px;
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.main{
+    background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    width: 50%;
+}
+.main-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E4E4E;
+    
+}
+.main-subtitle{
+    font-size: 50px;
+    color: #4E4E4E;
+    margin-top: 50px;
+}
+.main-button{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(  #65DAFF, #70FFCB);
+    border-radius: 10px;
+    height: 40px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.about-card{
+    display: inline-block;
+    width: 24%;
+    color: aqua;
+    text-align: center;
+    height: 200px;
+    vertical-align: top;
+    margin-top: 100px;
+}
+.about-text{
+    font-size: 30px;
+}
+.about-img{
+    height: 120px;
+}
+.about{
+    height: 40vh;
+}
+.cs{
+    background-image: url(img/csgo.jpg);
+    
+}
+.dota{
+    background-image: url(img/dota2.jpg);
+
+}
+.apex{
+    background-image: url(img/apex.jpg);
+
+}
+.games-card-image{
+    height: 350px;
+    width: 49%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.games-card-content{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.games-line{
+    height: 3px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: #70FFCB;
+}
+.section-title{
+    text-align: center;
+    color: #65DAFF;
+}
+.games-text{
+    color: white;
+    margin-top: 10px;
+}
+.games-title{
+    color: #70FFCB;
+    margin-bottom: 10px;
+}
+.games-container{
+    box-shadow: 0px 0px 15px #4E4E4E;
+}
